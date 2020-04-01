@@ -1,0 +1,78 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#mainNav {
+  background-color: #ccc;
+  color: black;
+}
+#mainNav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav a {
+  color: black;
+  text-decoration: none;
+}
+#mainNav li:hover {
+  background-color: #aaa;
+}
+#mainHeader {
+  background: #333333;
+  color: white;
+}
+#jumbo {
+  background-image: url('../images/pexels-photo-1227520.jpeg');
+  background-position: center center;
+  min-height: 300px;
+  text-align: center;
+}
+#jumbo h1{
+  color: c;
+  font-size: 30px;
+  padding-top: 10px;
+  line-height: 1.2em;
+}
+#main {
+  float: right;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border-right: 2px solid brown;
+  box-sizing: border-box;
+}
+p {
+  padding: 10px 20px 10px 20px;
+  margin-top: 40px;
+}
+#mainFooter{
+  background-color: #333333;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+@media (max-width:600px){
+  #main, #sidebar {
+    width: 100%;
+    float: none;
+    border: none;
+  }
+}
